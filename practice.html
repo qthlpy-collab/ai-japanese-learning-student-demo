@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practice</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Practice</h1>
+
+    <section class="card">
+      <h2>Question 1: Choose the correct particle</h2>
+      <p>わたし＿学生です。</p>
+      <label><input type="radio" name="q1" value="が" /> が</label><br />
+      <label><input type="radio" name="q1" value="は" /> は</label>
+    </section>
+
+    <section class="card">
+      <h2>Question 2: Sentence Ordering</h2>
+      <p>Reorder the sentence:</p>
+      <p><strong>学校 / へ / 毎日 / 行きます / わたしは</strong></p>
+      <input type="text" id="q2" placeholder="Type your answer here" />
+    </section>
+
+    <section class="card">
+      <h2>Question 3: Fill in the blank</h2>
+      <p>日本語を（　　　）います。</p>
+      <input type="text" id="q3" placeholder="Type your answer here" />
+    </section>
+
+    <button class="button" onclick="submitPractice()">Submit Answers</button>
+    <a class="button secondary" href="index.html">Back Home</a>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

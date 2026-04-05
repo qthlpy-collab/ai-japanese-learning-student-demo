@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Progress</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Learning Progress</h1>
+
+    <section class="card">
+      <p><strong>Completed exercises:</strong> <span id="completed">0</span></p>
+      <p><strong>Accuracy:</strong> <span id="accuracy">0%</span></p>
+      <p><strong>Common mistake:</strong> particle confusion (は / が)</p>
+    </section>
+
+    <a class="button" href="index.html">Back to Home</a>
+    <a class="button secondary" href="practice.html">Practice Again</a>
+  </main>
+
+  <script src="script.js"></script>
+  <script>
+    showProgress();
+  </script>
+</body>
+</html>
